@@ -25,7 +25,7 @@ All automation templates in this repository were found online and are uploaded h
 | Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable | An AI-powered assistant for Outlook that processes emails, sanitizes content, and assigns categories using rules from Airtable. Integrates with Monday.com for contact support. | Ops | [Link to Template]() |
 | 📈 Receive Daily Market News from FT.com to your Microsoft outlook inbox | Extracts financial news from FT.com and delivers daily updates to your Outlook inbox. Automates content extraction and email delivery for timely market insights. | Executive | [Link to Template]() |
 
-
+---
 
 ### Google Drive & Google Sheets
 
@@ -52,103 +52,66 @@ All automation templates in this repository were found online and are uploaded h
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
-| Ask questions about a PDF using AI | This workflow fetches a PDF from Google Drive, splits it into chunks, embeds the chunks using OpenAI embeddings, and enables chat interactions with the document content. | Customer Support/Knowledge Management | [Link to Template](PDF_and_Document_Processing/Ask%20questions%20about%20a%20PDF%20using%20AI.json) |
-| Breakdown Documents into Study Notes using Templating MistralAI and Qdrant | This workflow triggers on new files, processes documents with MistralAI embeddings, and stores data in Qdrant vector store for study note generation. | Education/Knowledge Management | [Link to Template](PDF_and_Document_Processing/Breakdown%20Documents%20into%20Study%20Notes%20using%20Templating%20MistralAI%20and%20Qdrant.json) |
-| CV Resume PDF Parsing with Multimodal Vision AI | This workflow converts candidate resume PDFs to images, uses a Vision Language Model to assess candidate fit, and includes logic to bypass hidden AI prompts in resumes. | HR | [Link to Template](PDF_and_Document_Processing/CV%20Resume%20PDF%20Parsing%20with%20Multimodal%20Vision%20AI.json) |
-| Chat with PDF docs using AI (quoting sources) | This workflow enables chat interactions with PDF documents, allowing users to ask questions and receive answers with quoted sources from the document. | Customer Support/Knowledge Management | [Link to Template](PDF_and_Document_Processing/Chat%20with%20PDF%20docs%20using%20AI%20(quoting%20sources).json) |
-| Convert URL HTML to Markdown Format and Get Page Links | This workflow converts HTML content from a given URL into Markdown format and extracts all page links, useful for content scraping and analysis. | Marketing/Content | [Link to Template](PDF_and_Document_Processing/Convert%20URL%20HTML%20to%20Markdown%20Format%20and%20Get%20Page%20Links.json) |
-| ETL pipeline for text processing | This workflow implements an ETL pipeline for text processing, extracting data from Twitter, storing it in MongoDB and PostgreSQL, and sending alerts to Slack based on sentiment analysis. | Data Analytics/IT | [Link to Template](PDF_and_Document_Processing/ETL%20pipeline%20for%20text%20processing.json) |
-| Extract and process information directly from PDF using Claude and Gemini | This workflow extracts and processes information directly from PDFs using advanced AI models like Claude and Gemini, enabling intelligent document analysis. | Data Extraction/IT | [Link to Template](PDF_and_Document_Processing/Extract%20and%20process%20information%20directly%20from%20PDF%20using%20Claude%20and%20Gemini.json) |
-| Extract data from resume and create PDF with Gotenberg | This workflow extracts structured data from resumes using AI, converts it into HTML, and then generates a well-formatted PDF using Gotenberg. | HR | [Link to Template](PDF_and_Document_Processing/Extract%20data%20from%20resume%20and%20create%20PDF%20with%20Gotenberg.json) |
-| Extract license plate number from image uploaded via an n8n form | This workflow extracts license plate numbers from images uploaded via an n8n form using a Vision Language Model, then displays the extracted information. | Operations/Logistics | [Link to Template](PDF_and_Document_Processing/Extract%20license%20plate%20number%20from%20image%20uploaded%20via%20an%20n8n%20form.json) |
-| Extract text from PDF and image using Vertex AI (Gemini) into CSV | This workflow extracts text from PDFs and images using Vertex AI (Gemini), routes based on file type, and converts the extracted data into a CSV format. | Data Extraction/IT | [Link to Template](PDF_and_Document_Processing/Extract%20text%20from%20PDF%20and%20image%20using%20Vertex%20AI%20(Gemini)%20into%20CSV.json) |
-| Invoice data extraction with LlamaParse and OpenAI | This workflow extracts structured data from invoices using LlamaParse and OpenAI, then processes it with a structured output parser for detailed invoice data extraction. | Finance/Admin | [Link to Template](PDF_and_Document_Processing/Invoice%20data%20extraction%20with%20LlamaParse%20and%20OpenAI.json) |
-| Write a WordPress post with AI (starting from a few keywords) | This workflow uses AI to write WordPress posts based on a few keywords, simplifying the content creation process. | Marketing/Content | [Link to Template](WordPress/Write%20a%20WordPress%20post%20with%20AI%20(starting%20from%20a%20few%20keywords).json) |
+| Ask questions about a PDF using AI | This workflow fetches a PDF from Google Drive, splits it into chunks, embeds the chunks using OpenAI embeddings, and enables chat interactions with the document content. | Customer Support/Knowledge Management | [Link to Template]() |
+| Breakdown Documents into Study Notes using Templating MistralAI and Qdrant | This workflow triggers on new files, processes documents with MistralAI embeddings, and stores data in Qdrant vector store for study note generation. | Education/Knowledge Management | [Link to Template]() |
+| CV Resume PDF Parsing with Multimodal Vision AI | This workflow converts candidate resume PDFs to images, uses a Vision Language Model to assess candidate fit, and includes logic to bypass hidden AI prompts in resumes. | HR | [Link to Template]() |
+| Chat with PDF docs using AI (quoting sources) | This workflow enables chat interactions with PDF documents, allowing users to ask questions and receive answers with quoted sources from the document. | Customer Support/Knowledge Management | [Link to Template]() |
+| Convert URL HTML to Markdown Format and Get Page Links | This workflow converts HTML content from a given URL into Markdown format and extracts all page links, useful for content scraping and analysis. | Marketing/Content | [Link to Template]() |
+| ETL pipeline for text processing | This workflow implements an ETL pipeline for text processing, extracting data from Twitter, storing it in MongoDB and PostgreSQL, and sending alerts to Slack based on sentiment analysis. | Data Analytics/IT | [Link to Template]() |
+| Extract and process information directly from PDF using Claude and Gemini | This workflow extracts and processes information directly from PDFs using advanced AI models like Claude and Gemini, enabling intelligent document analysis. | Data Extraction/IT | [Link to Template]() |
+| Extract data from resume and create PDF with Gotenberg | This workflow extracts structured data from resumes using AI, converts it into HTML, and then generates a well-formatted PDF using Gotenberg. | HR | [Link to Template]() |
+| Extract license plate number from image uploaded via an n8n form | This workflow extracts license plate numbers from images uploaded via an n8n form using a Vision Language Model, then displays the extracted information. | Operations/Logistics | [Link to Template]() |
+| Extract text from PDF and image using Vertex AI (Gemini) into CSV | This workflow extracts text from PDFs and images using Vertex AI (Gemini), routes based on file type, and converts the extracted data into a CSV format. | Data Extraction/IT | [Link to Template]() |
+| Invoice data extraction with LlamaParse and OpenAI | This workflow extracts structured data from invoices using LlamaParse and OpenAI, then processes it with a structured output parser for detailed invoice data extraction. | Finance/Admin | [Link to Template]() |
+| Write a WordPress post with AI (starting from a few keywords) | This workflow uses AI to write WordPress posts based on a few keywords, simplifying the content creation process. | Marketing/Content | [Link to Template]() |
+
+---
+
 
 ### Discord
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
-| Discord AI-powered bot | This workflow creates an AI-powered Discord bot that categorizes user messages (success story, urgent issue, ticket) and routes them to the appropriate department (customer success, IT, customer support). | Customer Support | [Link to Template](Discord/Discord%20AI-powered%20bot.json) |
-| Send daily translated Calvin and Hobbes Comics to Discord | This workflow automates the daily retrieval of Calvin and Hobbes comics, translates the dialogues into English and Korean (or other languages), and posts them to Discord. | Marketing/Content | [Link to Template](Discord/Send%20daily%20translated%20Calvin%20and%20Hobbes%20Comics%20to%20Discord.json) |
-| Share YouTube Videos with AI Summaries on Discord | This workflow automatically shares new YouTube videos on Discord along with AI-generated summaries of their content, leveraging caption data. | Marketing | [Link to Template](Discord/Share%20YouTube%20Videos%20with%20AI%20Summaries%20on%20Discord.json) |
+| Discord AI-powered bot | This workflow creates an AI-powered Discord bot that categorizes user messages (success story, urgent issue, ticket) and routes them to the appropriate department (customer success, IT, customer support). | Customer Support | [Link to Template]() |
+| Send daily translated Calvin and Hobbes Comics to Discord | This workflow automates the daily retrieval of Calvin and Hobbes comics, translates the dialogues into English and Korean (or other languages), and posts them to Discord. | Marketing/Content | [Link to Template]() |
+| Share YouTube Videos with AI Summaries on Discord | This workflow automatically shares new YouTube videos on Discord along with AI-generated summaries of their content, leveraging caption data. | Marketing | [Link to Template]() |
+
+---
+
 
 ### Database & Storage
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
-| Chat with Postgresql Database | This workflow enables an AI assistant to chat with a PostgreSQL database, allowing users to query and retrieve data using natural language. It supports custom SQL queries and schema introspection. | Data Analytics | [Link to Template](Database_and_Storage/Chat%20with%20Postgresql%20Database.json) |
-| Generate SQL queries from schema only - AI-powered | This workflow uses AI to generate SQL queries based on a given database schema, making it easier to interact with databases without manual query writing. | Engineering | [Link to Template](Database_and_Storage/Generate%20SQL%20queries%20from%20schema%20only%20-%20AI-powered.json) |
-| MongoDB AI Agent - Intelligent Movie Recommendations | This workflow creates an AI agent that provides intelligent movie recommendations by interacting with a MongoDB database, using aggregation pipelines to fetch relevant movie data. | Data Analytics | [Link to Template](Database_and_Storage/MongoDB%20AI%20Agent%20-%20Intelligent%20Movie%20Recommendations.json) |
-| Supabase Insertion & Upsertion & Retrieval | This workflow demonstrates how to perform insertion, upsertion, and retrieval operations with Supabase, specifically for handling vector embeddings and associated metadata. | Engineering | [Link to Template](Database_and_Storage/Supabase%20Insertion%20&%20Upsertion%20&%20Retrieval.json) |
-| Talk to your SQLite database with a LangChain AI Agent | This workflow allows users to interact with a SQLite database using a LangChain AI agent, enabling natural language queries and data retrieval from the database. | Data Analytics | [Link to Template](Database_and_Storage/Talk%20to%20your%20SQLite%20database%20with%20a%20LangChain%20AI%20Agent.json) |
+| Chat with Postgresql Database | This workflow enables an AI assistant to chat with a PostgreSQL database, allowing users to query and retrieve data using natural language. It supports custom SQL queries and schema introspection. | Data Analytics | [Link to Template]() |
+| Generate SQL queries from schema only - AI-powered | This workflow uses AI to generate SQL queries based on a given database schema, making it easier to interact with databases without manual query writing. | Engineering | [Link to Template]() |
+| MongoDB AI Agent - Intelligent Movie Recommendations | This workflow creates an AI agent that provides intelligent movie recommendations by interacting with a MongoDB database, using aggregation pipelines to fetch relevant movie data. | Data Analytics | [Link to Template]() |
+| Supabase Insertion & Upsertion & Retrieval | This workflow demonstrates how to perform insertion, upsertion, and retrieval operations with Supabase, specifically for handling vector embeddings and associated metadata. | Engineering | [Link to Template]() |
+| Talk to your SQLite database with a LangChain AI Agent | This workflow allows users to interact with a SQLite database using a LangChain AI agent, enabling natural language queries and data retrieval from the database. | Data Analytics | [Link to Template]() |
 
-### DevOps / Server Automation
+---
 
-| Title | Description | Link |
-|-------|-------------|------|
-| Linux System Update via Webhook | Trigger update & upgrade of your Debian-based server via an authenticated POST request and SSH. | SSH Tools | [Link to Template](devops/linux-update-via-webhook.json)
-| Docker Compose Controller via Webhook | Start or stop Docker Compose services on your server via authenticated HTTP POST request with n8n + SSH. | SSH Tools | [Link to Template](devops/docker-compose-controller.json) |
-
-### Airtable
-
-| Title | Description | Department | Link |
-|-------|-------------|------------|------|
-| AI Agent for project management and meetings with Airtable and Fireflies | This workflow uses an AI agent to automate project management tasks and meeting follow-ups by analyzing call transcripts from Fireflies. It creates tasks in Airtable and notifies clients about their tasks. | Operations | [Link to Template](Airtable/AI%20Agent%20for%20project%20management%20and%20meetings%20with%20Airtable%20and%20Fireflies.json) |
-| AI Agent to chat with Airtable and analyze data | This workflow creates an AI agent that can chat with Airtable, analyze data, and perform queries based on user requests. It can handle aggregation functions and generate graphs/images. | Data Analytics | [Link to Template](Airtable/AI%20Agent%20to%20chat%20with%20Airtable%20and%20analyze%20data.json) |
-| Get Airtable data via AI and Obsidian Notes | This workflow retrieves data from Airtable using an AI agent and integrates it with Obsidian Notes, allowing for seamless data access and organization within Obsidian. | Productivity | [Link to Template](Airtable/Get%20Airtable%20data%20via%20AI%20and%20Obsidian%20Notes.json) |
-| Handling Job Application Submissions with AI and n8n Forms | This workflow automates the handling of job application submissions by extracting information from resumes (PDFs) using AI, parsing it into a structured format, and potentially storing it in Airtable. | HR | [Link to Template](Airtable/Handling%20Job%20Application%20Submissions%20with%20AI%20and%20n8n%20Forms.json) |
-| vAssistant for Hubspot Chat using OpenAi and Airtable | This workflow integrates an OpenAI assistant with HubSpot Chat and Airtable to provide automated responses and manage customer interactions. It fetches chat messages, processes them with AI, and can store relevant information in Airtable. | Sales | [Link to Template](Airtable/vAssistant%20for%20Hubspot%20Chat%20using%20OpenAi%20and%20Airtable.json) |
-
-### Notion
-
-| Title | Description | Department | Link |
-|-------|-------------|------------|------|
-| Add positive feedback messages to a table in Notion | Captures positive feedback from Typeform, analyzes sentiment with Google Cloud Natural Language, and adds it to a Notion table, with Slack notifications for high-scoring feedback. | Support | [Link to Template](Notion/Add%20positive%20feedback%20messages%20to%20a%20table%20in%20Notion.json) |
-| Analyse papers from Hugging Face with AI and store them in Notion | Automatically fetches and analyzes papers from Hugging Face, extracts key information using AI, and stores the structured data in a Notion database. | Engineering | [Link to Template](Notion/Analyse%20papers%20from%20Hugging%20Face%20with%20AI%20and%20store%20them%20in%20Notion.json) |
-| Automate Competitor Research with Exa.ai, Notion and AI Agents | Builds a competitor research agent using Exa.ai to find similar companies. AI agents then scour the internet for company overviews, product offerings, and customer reviews, compiling a report into a Notion table. | Marketing | [Link to Template](Notion/Automate%20Competitor%20Research%20with%20Exa.ai,%20Notion%20and%20AI%20Agents.json) |
-| Automate LinkedIn Outreach with Notion and OpenAI | Automates LinkedIn outreach by fetching daily posts from a Notion database, formatting them with OpenAI for LinkedIn engagement, and then posting them to LinkedIn. | Marketing | [Link to Template](Notion/Automate%20LinkedIn%20Outreach%20with%20Notion%20and%20OpenAI.json) |
-| Notion AI Assistant Generator | Generates a custom AI Assistant chatbot workflow for a specific Notion database schema, allowing users to chat with their Notion data. | Engineering | [Link to Template](Notion/Notion%20AI%20Assistant%20Generator.json) |
-| Notion knowledge base AI assistant | Creates an AI assistant that can search and retrieve information from a Notion knowledge base, providing answers to user queries. | Support | [Link to Template](Notion/Notion%20knowledge%20base%20AI%20assistant.json) |
-| Notion to Pinecone Vector Store Integration | Integrates Notion with Pinecone, allowing Notion pages to be converted into vector embeddings and stored in Pinecone for advanced search and retrieval. | Engineering | [Link to Template](Notion/Notion%20to%20Pinecone%20Vector%20Store%20Integration.json) |
-| Store Notion’s Pages as Vector Documents into Supabase with OpenAI | Automates storing Notion pages as vector documents in a Supabase database, using OpenAI to generate embeddings for the content. | Engineering | [Link to Template](Notion/Store%20Notion_s%20Pages%20as%20Vector%20Documents%20into%20Supabase%20with%20OpenAI.json) |
-| Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr | Transforms emails into AI-enhanced tasks in Notion, supporting multiple users. It integrates with Gmail for email triggers, Airtable for routing, and Softr for a user interface. | Ops | [Link to Template](Notion/Turn%20Emails%20into%20AI-Enhanced%20Tasks%20in%20Notion%20(Multi-User%20Support)%20with%20Gmail,%20Airtable%20and%20Softr.json) |
-| Upsert huge documents in a vector store with Supabase and Notion | Manages large documents by splitting them into chunks, generating embeddings, and upserting them into a Supabase vector store, with Notion serving as the document source. | Engineering | [Link to Template](Notion/Upsert%20huge%20documents%20in%20a%20vector%20store%20with%20Supabase%20and%20Notion.json) |
-
-### Slack
-
-| Title | Description | Department | Link |
-|-------|-------------|------------|------|
-| AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack | Monitors RSS feeds, summarizes articles with OpenAI and Jina AI, classifies them, and sends formatted notifications to Slack, enabling AI-powered information monitoring. | Marketing | [Link to Template](Slack/AI-Powered%20Information%20Monitoring%20with%20OpenAI,%20Google%20Sheets,%20Jina%20AI%20and%20Slack.json) |
-| Creating a AI Slack Bot with Google Gemini | Builds an AI Slack bot using Google Gemini, handling webhooks, integrating an AI agent, managing memory, and responding to Slack messages. | Engineering | [Link to Template](Slack/Creating%20a%20AI%20Slack%20Bot%20with%20Google%20Gemini.json) |
-| Customer Support Channel and Ticketing System with Slack and Linear | Automates customer support by querying Slack for messages with a ticket emoji, deciding if a new Linear ticket is needed, creating or updating tickets, and notifying Slack. | Support | [Link to Template](Slack/Customer%20Support%20Channel%20and%20Ticketing%20System%20with%20Slack%20and%20Linear.json) |
-| Enhance Security Operations with the Qualys Slack Shortcut Bot! | Creates a Slack shortcut bot for Qualys to enhance security operations, allowing users to trigger actions like creating reports or starting vulnerability scans directly from Slack. | Security | [Link to Template](Slack/Enhance%20Security%20Operations%20with%20the%20Qualys%20Slack%20Shortcut%20Bot!.json) |
-| Enrich Pipedrive's Organization Data with OpenAI GPT-4o & Notify it in Slack | Enriches Pipedrive organization data by scraping website content, using OpenAI GPT-4o to generate a summary, and adding it as a note in Pipedrive, then notifying a Slack channel. | Sales | [Link to Template](Slack/Enrich%20Pipedrive_s%20Organization%20Data%20with%20OpenAI%20GPT-4o%20&%20Notify%20it%20in%20Slack.json) |
-| IT Ops AI SlackBot Workflow - Chat with your knowledge base | Creates an AI Slackbot for IT Operations, enabling users to chat with a knowledge base to retrieve information and get answers directly within Slack. | IT | [Link to Template](Slack/IT%20Ops%20AI%20SlackBot%20Workflow%20-%20Chat%20with%20your%20knowledge%20base.json) |
-| Sentiment Analysis Tracking on Support Issues with Linear and Slack | Tracks sentiment on support issues by integrating with Linear and Slack, performing sentiment analysis using OpenAI on Linear comments, and notifying relevant Slack channels. | Support | [Link to Template](Slack/Sentiment%20Analysis%20Tracking%20on%20Support%20Issues%20with%20Linear%20and%20Slack.json) |
-| Slack slash commands AI Chat Bot | Implements an AI chatbot accessible via Slack slash commands, processing user commands, interacting with an AI model, and responding within Slack. | IT | [Link to Template](Slack/Slack%20slash%20commands%20AI%20Chat%20Bot.json) |
-| Venafi Cloud Slack Cert Bot | Provides a Slack bot that interacts with Venafi Cloud for certificate management, allowing users to check certificate status, receive alerts, or request certificate actions via Slack. | Security | [Link to Template](Slack/Venafi%20Cloud%20Slack%20Cert%20Bot.json) |*
 
 ### OpenAI & LLMs
 
 | Title | Description | Department | Link |
 |---|---|---|---|
-| Advanced AI Demo (Presented at AI Developers #14 meetup) | Advanced AI capabilities demo. | AI/Development | [Link to Template](OpenAI_and_LLMs/Advanced%20AI%20Demo%20(Presented%20at%20AI%20Developers%20%2314%20meetup).json) |
-| AI agent chat | Basic AI chat agent. | AI/Customer Service | [Link to Template](OpenAI_and_LLMs/AI%20agent%20chat.json) |
-| AI agent that can scrape webpages | AI agent for web scraping. | AI/Data Extraction | [Link to Template](OpenAI_and_LLMs/AI%20agent%20that%20can%20scrape%20webpages.json) |
-| AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow | Stock analysis automation. | Finance/AI/Data Analysis | [Link to Template](OpenAI_and_LLMs/AI%20Crew%20to%20Automate%20Fundamental%20Stock%20Analysis%20-%20Q&A%20Workflow.json) |
-| AI Customer feedback sentiment analysis | Sentiment analysis on customer feedback. | Customer Service/Marketing/Data Analysis | [Link to Template](OpenAI_and_LLMs/AI%20Customer%20feedback%20sentiment%20analysis.json) |
-| AI Data Extraction with Dynamic Prompts and Airtable | AI-driven data extraction with Airtable integration. | AI/Data Extraction/Database | [Link to Template](OpenAI_and_LLMs/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Airtable.json) |
-| AI Data Extraction with Dynamic Prompts and Baserow | AI-driven data extraction with Baserow integration. | AI/Data Extraction/Database | [Link to Template](OpenAI_and_LLMs/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Baserow.json) |
-| AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n | Lead management automation. | Sales/CRM/AI | [Link to Template](OpenAI_and_LLMs/AI-Driven%20Lead%20Management%20and%20Inquiry%20Automation%20with%20ERPNext%20&%20n8n.json) |
-| AI Fitness Coach Strava Data Analysis and Personalized Training Insights | Fitness coaching via Strava data analysis. | Fitness/AI/Data Analysis | [Link to Template](OpenAI_and_LLMs/AI%20Fitness%20Coach%20Strava%20Data%20Analysis%20and%20Personalized%20Training%20Insights.json) |
-| AI-Powered Candidate Shortlisting Automation for ERPNext | Candidate shortlisting automation. | HR/AI/Recruitment | [Link to Template](OpenAI_and_LLMs/AI-Powered%20Candidate%20Shortlisting%20Automation%20for%20ERPNext.json) |
-| AI-Powered Email Automation for Business: Summarize & Respond with RAG | Email automation with summarization and response. | Business Automation/AI/Communication | [Link to Template](OpenAI_and_LLMs/AI-Powered%20Email%20Automation%20for%20Business_%20Summarize%20&%20Respond%20with%20RAG.json) |
-| AI-Powered RAG Workflow For Stock Earnings Report Analysis | Stock earnings report analysis with RAG. | Finance/AI/Data Analysis | [Link to Template](OpenAI_and_LLMs/AI-Powered%20RAG%20Workflow%20For%20Stock%20Earnings%20Report%20Analysis.json) |
-| AI-Powered Social Media Amplifier | Amplifies social media presence using AI. | Marketing/AI/Social Media | [Link to Template](OpenAI_and_LLMs/AI-Powered%20Social%20Media%20Amplifier.json) |
-| AI-powered WooCommerce Support-Agent | Creates an AI-powered support agent for WooCommerce stores. | E-commerce/AI/Customer Service | [Link to Template](OpenAI_and_LLMs/AI-powered%20WooCommerce%20Support-Agent.json) |
-| AI-Powered YouTube Video Summarization & Analysis | Summarizes and analyzes YouTube videos using AI. | Content Creation/AI/Data Analysis | [Link to Template](OpenAI_and_LLMs/%E2%9A%A1AI-Powered%20YouTube%20Video%20Summarization%20&%20Analysis.json) |
-| AI: Ask questions about any data source (using the n8n workflow retriever) | Allows users to ask questions about various data sources using an n8n workflow retriever. | AI/Data Analysis/Workflow Automation | [Link to Template](OpenAI_and_LLMs/AI_%20Ask%20questions%20about%20any%20data%20source%20(using%20the%20n8n%20workflow%20retriever).json) |
+| Advanced AI Demo (Presented at AI Developers #14 meetup) | Advanced AI capabilities demo. | AI/Development | [Link to Template]() |
+| AI agent chat | Basic AI chat agent. | AI/Customer Service | [Link to Template]() |
+| AI agent that can scrape webpages | AI agent for web scraping. | AI/Data Extraction | [Link to Template]() |
+| AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow | Stock analysis automation. | Finance/AI/Data Analysis | [Link to Template]() |
+| AI Customer feedback sentiment analysis | Sentiment analysis on customer feedback. | Customer Service/Marketing/Data Analysis | [Link to Template]() |
+| AI Data Extraction with Dynamic Prompts and Airtable | AI-driven data extraction with Airtable integration. | AI/Data Extraction/Database | [Link to Template]() |
+| AI Data Extraction with Dynamic Prompts and Baserow | AI-driven data extraction with Baserow integration. | AI/Data Extraction/Database | [Link to Template]() |
+| AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n | Lead management automation. | Sales/CRM/AI | [Link to Template]() |
+| AI Fitness Coach Strava Data Analysis and Personalized Training Insights | Fitness coaching via Strava data analysis. | Fitness/AI/Data Analysis | [Link to Template]() |
+| AI-Powered Candidate Shortlisting Automation for ERPNext | Candidate shortlisting automation. | HR/AI/Recruitment | [Link to Template]() |
+| AI-Powered Email Automation for Business: Summarize & Respond with RAG | Email automation with summarization and response. | Business Automation/AI/Communication | [Link to Template]() |
+| AI-Powered RAG Workflow For Stock Earnings Report Analysis | Stock earnings report analysis with RAG. | Finance/AI/Data Analysis | [Link to Template]() |
+| AI-Powered Social Media Amplifier | Amplifies social media presence using AI. | Marketing/AI/Social Media | [Link to Template]() |
+| AI-powered WooCommerce Support-Agent | Creates an AI-powered support agent for WooCommerce stores. | E-commerce/AI/Customer Service | [Link to Template]() |
+| AI-Powered YouTube Video Summarization & Analysis | Summarizes and analyzes YouTube videos using AI. | Content Creation/AI/Data Analysis | [Link to Template]() |
+| AI: Ask questions about any data source (using the n8n workflow retriever) | Allows users to ask questions about various data sources using an n8n workflow retriever. | AI/Data Analysis/Workflow Automation | [Link to Template]() |
 | AI: Summarize podcast episode and enhance using Wikipedia | Summarizes podcast episodes and enhances the summary with information from Wikipedia using AI. | Content Creation/AI/Data Analysis | [Link to Template](OpenAI_and_LLMs/AI_%20Summarize%20podcast%20episode%20and%20enhance%20using%20Wikipedia.json) |
 
 ### WhatsApp
@@ -175,47 +138,7 @@ All automation templates in this repository were found online and are uploaded h
 | Twitter Virtual AI Influencer | Manages a virtual AI influencer's Twitter account. | Marketing/AI | [Link to Template](Instagram_Twitter_Social_Media/Twitter%20Virtual%20AI%20Influencer.json) |
 | Update Twitter banner using HTTP request | Updates a Twitter banner using HTTP requests. | Marketing/Development | [Link to Template](Instagram_Twitter_Social_Media/Update%20Twitter%20banner%20using%20HTTP%20request.json) |
 
-### Other Integrations & Use Cases
-
-| Title | Description | Department | Link |
-|-------|-------------|------------|------|
-| API Schema Extractor | Extracts API schemas from web services for documentation or integration purposes. | Development/Integration | [Link to Template](Other_Integrations_and_Use_Cases/API%20Schema%20Extractor.json) |
-| Analyze feedback and send a message on Mattermost | Analyzes user feedback and sends notifications to Mattermost channels. | Support/Communication | [Link to Template](Other_Integrations_and_Use_Cases/Analyze%20feedback%20and%20send%20a%20message%20on%20Mattermost.json) |
-| Analyze feedback using AWS Comprehend | Performs sentiment analysis on feedback using AWS Comprehend and sends results to Mattermost. | Support/AI | [Link to Template](Other_Integrations_and_Use_Cases/Analyze%20feedback%20using%20AWS%20Comprehend%20and%20send%20it%20to%20a%20Mattermost%20channel.json) |
-| Automate Pinterest Analysis & AI-Powered Content Suggestions | Analyzes Pinterest data and provides AI-powered content suggestions. | Marketing/AI | [Link to Template](Other_Integrations_and_Use_Cases/Automate%20Pinterest%20Analysis%20%26%20AI-Powered%20Content%20Suggestions%20With%20Pinterest%20API.json) |
-| Automate SIEM Alert Enrichment | Enriches SIEM alerts with MITRE ATT&CK data and integrates with Zendesk. | Security/IT | [Link to Template](Other_Integrations_and_Use_Cases/Automate%20SIEM%20Alert%20Enrichment%20with%20MITRE%20ATT%26CK,%20Qdrant%20%26%20Zendesk%20in%20n8n.json) |
-| Automate Screenshots with URLbox & Analyze with AI | Takes screenshots of webpages and analyzes them using AI. | Development/Marketing | [Link to Template](Other_Integrations_and_Use_Cases/Automate%20Screenshots%20with%20URLbox%20%26%20Analyze%20them%20with%20AI.json) |
-| Automate testimonials in Strapi | Automates the process of collecting and managing testimonials in Strapi. | Marketing/Content | [Link to Template](Other_Integrations_and_Use_Cases/Automate%20testimonials%20in%20Strapi%20with%20n8n.json) |
-| Bitrix24 Chatbot Application | Example workflow for creating a Bitrix24 chatbot with webhook integration. | Business/Communication | [Link to Template](Other_Integrations_and_Use_Cases/Bitrix24%20Chatbot%20Application%20Workflow%20example%20with%20Webhook%20Integration.json) |
-| ChatGPT Automatic Code Review in Gitlab MR | Automates code reviews in GitLab merge requests using ChatGPT. | Development/DevOps | [Link to Template](Other_Integrations_and_Use_Cases/ChatGPT%20Automatic%20Code%20Review%20in%20Gitlab%20MR.json) |
-| Classify new bugs in Linear with OpenAI's GPT-4 | Automatically classifies and routes new bug reports in Linear using AI. | Development/QA | [Link to Template](Other_Integrations_and_Use_Cases/Classify%20new%20bugs%20in%20Linear%20with%20OpenAI_s%20GPT-4%20and%20move%20them%20to%20the%20right%20team.json) |
-| Create, update, and get a profile in Humantic AI | Manages user profiles in Humantic AI platform. | Marketing/AI | [Link to Template](Other_Integrations_and_Use_Cases/Create,%20update,%20and%20get%20a%20profile%20in%20Humantic%20AI.json) |
-| Enhance Customer Chat with Twilio and Redis | Implements message buffering for customer chats using Twilio and Redis. | Support/Development | [Link to Template](Other_Integrations_and_Use_Cases/Enhance%20Customer%20Chat%20by%20Buffering%20Messages%20with%20Twilio%20and%20Redis.json) |
-| Hacker News Throwback Machine | Shows what was popular on Hacker News on this day in previous years. | Development/Community | [Link to Template](Other_Integrations_and_Use_Cases/Hacker%20News%20Throwback%20Machine%20-%20See%20What%20Was%20Hot%20on%20This%20Day,%20Every%20Year!.json) |
-| Handling Appointment Leads with Twilio, Cal.com and AI | Manages appointment scheduling and follow-ups using Twilio and Cal.com. | Sales/Support | [Link to Template](Other_Integrations_and_Use_Cases/Handling%20Appointment%20Leads%20and%20Follow-up%20With%20Twilio,%20Cal.com%20and%20AI.json) |
-| Integrating AI with Open-Meteo API | Enhances weather forecasting with AI analysis. | Data Science/Weather | [Link to Template](Other_Integrations_and_Use_Cases/Integrating%20AI%20with%20Open-Meteo%20API%20for%20Enhanced%20Weather%20Forecasting.json) |
-| Introduction to the HTTP Tool | Basic tutorial on using HTTP tools in n8n. | Development | [Link to Template](Other_Integrations_and_Use_Cases/Introduction%20to%20the%20HTTP%20Tool.json) |
-| KB Tool - Confluence Knowledge Base | Integrates with Confluence for knowledge base management. | Documentation/IT | [Link to Template](Other_Integrations_and_Use_Cases/KB%20Tool%20-%20Confluence%20Knowledge%20Base.json) |
-| LINE Assistant with Google Calendar and Gmail | Creates a LINE assistant that integrates with Google Calendar and Gmail. | Productivity/Communication | [Link to Template](Other_Integrations_and_Use_Cases/LINE%20Assistant%20with%20Google%20Calendar%20and%20Gmail%20Integration.json) |
-| Monthly Spotify Track Archiving | Archives and classifies monthly Spotify tracks into playlists. | Personal/Music | [Link to Template](Other_Integrations_and_Use_Cases/Monthly%20Spotify%20Track%20Archiving%20and%20Playlist%20Classification.json) |
-| Obsidian Notes Read Aloud | Converts Obsidian notes into audio format as a podcast feed. | Productivity/Content | [Link to Template](Other_Integrations_and_Use_Cases/Obsidian%20Notes%20Read%20Aloud%20using%20AI_%20Available%20as%20a%20Podcast%20Feed.json) |
-| Optimize & Update Printify Title and Description | Automates optimization of Printify product titles and descriptions. | E-commerce | [Link to Template](Other_Integrations_and_Use_Cases/Optimize%20%26%20Update%20Printify%20Title%20and%20Description%20Workflow.json) |
-| Qualify replies from Pipedrive persons with AI | Uses AI to qualify and categorize replies from Pipedrive contacts. | Sales/AI | [Link to Template](Other_Integrations_and_Use_Cases/Qualify%20replies%20from%20Pipedrive%20persons%20with%20AI.json) |
-| Siri AI Agent with Apple Shortcuts | Creates a Siri-powered AI agent using Apple Shortcuts. | Personal/Productivity | [Link to Template](Other_Integrations_and_Use_Cases/Siri%20AI%20Agent_%20Apple%20Shortcuts%20powered%20voice%20template.json) |
-| Text automations using Apple Shortcuts | Implements text-based automations with Apple Shortcuts. | Personal/Productivity | [Link to Template](Other_Integrations_and_Use_Cases/Text%20automations%20using%20Apple%20Shortcuts.json) |
-| UTM Link Creator & QR Code Generator | Creates UTM links, generates QR codes, and schedules Google Analytics reports. | Marketing/Analytics | [Link to Template](Other_Integrations_and_Use_Cases/UTM%20Link%20Creator%20%26%20QR%20Code%20Generator%20with%20Scheduled%20Google%20Analytics%20Reports.json) |
-| Use AI to organize your Todoist Inbox | Automatically organizes tasks in Todoist using AI. | Productivity | [Link to Template](Other_Integrations_and_Use_Cases/Use%20AI%20to%20organize%20your%20Todoist%20Inbox.json) |
-| Using External Workflows as Tools in n8n | Demonstrates how to use external workflows as tools within n8n. | Development | [Link to Template](Other_Integrations_and_Use_Cases/Using%20External%20Workflows%20as%20Tools%20in%20n8n.json) |
-| Visualize SQL Agent queries with OpenAI and Quickchart.io | Creates visualizations from SQL queries using OpenAI and Quickchart.io. | Data Analysis/Visualization | [Link to Template](Other_Integrations_and_Use_Cases/Visualize%20your%20SQL%20Agent%20queries%20with%20OpenAI%20and%20Quickchart.io.json) |
-| Zoom AI Meeting Assistant | Creates meeting summaries, ClickUp tasks, and schedules follow-ups from Zoom meetings. | Productivity/Communication | [Link to Template](Other_Integrations_and_Use_Cases/Zoom%20AI%20Meeting%20Assistant%20creates%20mail%20summary,%20ClickUp%20tasks%20and%20follow-up%20call.json) |
-
-### Forms & Surveys
-
-| Title | Description | Department | Link |
-|-------|-------------|------------|------|
-| Conversational Interviews with AI Agents and n8n Forms | Implements AI-powered conversational interviews using n8n Forms for interactive data collection. | Research/Marketing | [Link to Template](Forms_and_Surveys/Conversational%20Interviews%20with%20AI%20Agents%20and%20n8n%20Forms.json) |
-| Email Subscription Service with n8n Forms, Airtable and AI | Manages email subscriptions with n8n Forms, stores data in Airtable, and uses AI for processing. | Marketing/Communication | [Link to Template](Forms_and_Surveys/Email%20Subscription%20Service%20with%20n8n%20Forms,%20Airtable%20and%20AI.json) |
-| Qualifying Appointment Requests with AI & n8n Forms | Uses AI to qualify and process appointment requests submitted through n8n Forms. | Sales/Support | [Link to Template](Forms_and_Surveys/Qualifying%20Appointment%20Requests%20with%20AI%20&%20n8n%20Forms.json) |
+---
 
 ### AI Research, RAG, and Data Analysis
 
@@ -261,26 +184,3 @@ All automation templates in this repository were found online and are uploaded h
 | Visual Regression Testing with Apify and AI Vision Model | Performs visual regression testing using Apify and an AI vision model to detect UI changes. | QA, AI Research | [Visual Regression Testing with Apify and AI Vision Model.txt](./AI_Research_RAG_and_Data_Analysis/Visual%20Regression%20Testing%20with%20Apify%20and%20AI%20Vision%20Model.json) |
 | 🔍 Perplexity Research to HTML: AI-Powered Content Creation | Transforms Perplexity AI research into HTML content for AI-powered content creation. | Content Creation, AI Research | [🔍 Perplexity Research to HTML_ AI-Powered Content Creation.txt](./AI_Research_RAG_and_Data_Analysis/%F0%9F%94%8D%20Perplexity%20Research%20to%20HTML_%20AI-Powered%20Content%20Creation.json) |
 
-
-### **Other**
-
-- ALL_unique_nodes.txt (node reference)
-
-... and more !
-
----
-
-If you would like to contribute additional templates or suggest new categories, feel free to open an issue or pull request!
-
----
-
-👉 [Join n8n and start automating now! 💎](https://n8n.partnerlinks.io/h1pwwf5m4toe)
-<a href="https://n8n.partnerlinks.io/h1pwwf5m4toe">
-  <img src="/img/n8n.png" alt="n8n" style="max-height: 300px;">
-</a>
-
----
-
-### **Sponsors**
-- [mahezsh](https://github.com/mahezsh)
-- [Dumpling AI](https://github.com/Dumpling-AI)
