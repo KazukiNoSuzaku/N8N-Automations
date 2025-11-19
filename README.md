@@ -1,22 +1,6 @@
 # n8n_automations
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/14621" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/14621" alt="enescingoz%2Fawesome-n8n-templates | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
-  </a>
-</p>
-
-
-[![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
-[![中文文档](https://img.shields.io/badge/中文文档-点击查看-orange)](README-zh.md)
-
-This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using [n8n](https://n8n.partnerlinks.io/h1pwwf5m4toe), making it easier for users to discover and use ready-made automations for various platforms and services.
-
-👉 [Join n8n and start automating now! 💎](https://n8n.partnerlinks.io/h1pwwf5m4toe)
-<a href="https://n8n.partnerlinks.io/h1pwwf5m4toe">
-  <img src="/img/n8n.png" alt="n8n" style="max-height: 300px;">
-</a>
-
+This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using [n8n](), making it easier for users to discover and use ready-made automations for various platforms and services.
 
 ---
 
