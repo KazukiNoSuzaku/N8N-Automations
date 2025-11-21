@@ -71,9 +71,9 @@ All automation templates in this repository were found online and are uploaded h
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
-| Discord AI-powered bot | This workflow creates an AI-powered Discord bot that categorizes user messages (success story, urgent issue, ticket) and routes them to the appropriate department (customer success, IT, customer support). | Customer Support | [Link to Template]() |
-| Send daily translated Calvin and Hobbes Comics to Discord | This workflow automates the daily retrieval of Calvin and Hobbes comics, translates the dialogues into English and Korean (or other languages), and posts them to Discord. | Marketing/Content | [Link to Template]() |
-| Share YouTube Videos with AI Summaries on Discord | This workflow automatically shares new YouTube videos on Discord along with AI-generated summaries of their content, leveraging caption data. | Marketing | [Link to Template]() |
+| Discord AI-powered bot | This workflow creates an AI-powered Discord bot that categorizes user messages (success story, urgent issue, ticket) and routes them to the appropriate department (customer success, IT, customer support). | Customer Support | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Discord/Discord%20AI-powered%20bot.json) |
+| Send daily translated Calvin and Hobbes Comics to Discord | This workflow automates the daily retrieval of Calvin and Hobbes comics, translates the dialogues into English and Korean (or other languages), and posts them to Discord. | Marketing/Content | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Discord/Send%20daily%20translated%20Calvin%20and%20Hobbes%20Comics%20to%20Discord.json) |
+| Share YouTube Videos with AI Summaries on Discord | This workflow automatically shares new YouTube videos on Discord along with AI-generated summaries of their content, leveraging caption data. | Marketing | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Discord/Share%20YouTube%20Videos%20with%20AI%20Summaries%20on%20Discord.json) |
 
 ---
 
