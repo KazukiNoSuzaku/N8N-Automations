@@ -95,23 +95,23 @@ All automation templates in this repository were found online and are uploaded h
 
 | Title | Description | Department | Link |
 |---|---|---|---|
-| Advanced AI Demo (Presented at AI Developers #14 meetup) | Advanced AI capabilities demo. | AI/Development | [Link to Template]() |
-| AI agent chat | Basic AI chat agent. | AI/Customer Service | [Link to Template]() |
-| AI agent that can scrape webpages | AI agent for web scraping. | AI/Data Extraction | [Link to Template]() |
-| AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow | Stock analysis automation. | Finance/AI/Data Analysis | [Link to Template]() |
-| AI Customer feedback sentiment analysis | Sentiment analysis on customer feedback. | Customer Service/Marketing/Data Analysis | [Link to Template]() |
-| AI Data Extraction with Dynamic Prompts and Airtable | AI-driven data extraction with Airtable integration. | AI/Data Extraction/Database | [Link to Template]() |
-| AI Data Extraction with Dynamic Prompts and Baserow | AI-driven data extraction with Baserow integration. | AI/Data Extraction/Database | [Link to Template]() |
-| AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n | Lead management automation. | Sales/CRM/AI | [Link to Template]() |
-| AI Fitness Coach Strava Data Analysis and Personalized Training Insights | Fitness coaching via Strava data analysis. | Fitness/AI/Data Analysis | [Link to Template]() |
-| AI-Powered Candidate Shortlisting Automation for ERPNext | Candidate shortlisting automation. | HR/AI/Recruitment | [Link to Template]() |
-| AI-Powered Email Automation for Business: Summarize & Respond with RAG | Email automation with summarization and response. | Business Automation/AI/Communication | [Link to Template]() |
-| AI-Powered RAG Workflow For Stock Earnings Report Analysis | Stock earnings report analysis with RAG. | Finance/AI/Data Analysis | [Link to Template]() |
-| AI-Powered Social Media Amplifier | Amplifies social media presence using AI. | Marketing/AI/Social Media | [Link to Template]() |
-| AI-powered WooCommerce Support-Agent | Creates an AI-powered support agent for WooCommerce stores. | E-commerce/AI/Customer Service | [Link to Template]() |
-| AI-Powered YouTube Video Summarization & Analysis | Summarizes and analyzes YouTube videos using AI. | Content Creation/AI/Data Analysis | [Link to Template]() |
-| AI: Ask questions about any data source (using the n8n workflow retriever) | Allows users to ask questions about various data sources using an n8n workflow retriever. | AI/Data Analysis/Workflow Automation | [Link to Template]() |
-| AI: Summarize podcast episode and enhance using Wikipedia | Summarizes podcast episodes and enhances the summary with information from Wikipedia using AI. | Content Creation/AI/Data Analysis | [Link to Template]() |
+| Advanced AI Demo (Presented at AI Developers #14 meetup) | Advanced AI capabilities demo. | AI/Development | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/Advanced%20AI%20Demo%20(Presented%20at%20AI%20Developers%20%2314%20meetup).json) |
+| AI agent chat | Basic AI chat agent. | AI/Customer Service | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20agent%20chat.json) |
+| AI agent that can scrape webpages | AI agent for web scraping. | AI/Data Extraction | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20agent%20that%20can%20scrape%20webpages.json) |
+| AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow | Stock analysis automation. | Finance/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20Crew%20to%20Automate%20Fundamental%20Stock%20Analysis%20-%20Q%26A%20Workflow.json) |
+| AI Customer feedback sentiment analysis | Sentiment analysis on customer feedback. | Customer Service/Marketing/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20Customer%20feedback%20sentiment%20analysis.json) |
+| AI Data Extraction with Dynamic Prompts and Airtable | AI-driven data extraction with Airtable integration. | AI/Data Extraction/Database | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Airtable.json) |
+| AI Data Extraction with Dynamic Prompts and Baserow | AI-driven data extraction with Baserow integration. | AI/Data Extraction/Database | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Baserow.json) |
+| AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n | Lead management automation. | Sales/CRM/AI | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-Driven%20Lead%20Management%20and%20Inquiry%20Automation%20with%20ERPNext%20%26%20n8n.json) |
+| AI Fitness Coach Strava Data Analysis and Personalized Training Insights | Fitness coaching via Strava data analysis. | Fitness/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI%20Fitness%20Coach%20Strava%20Data%20Analysis%20and%20Personalized%20Training%20Insights.json) |
+| AI-Powered Candidate Shortlisting Automation for ERPNext | Candidate shortlisting automation. | HR/AI/Recruitment | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-Powered%20Candidate%20Shortlisting%20Automation%20for%20ERPNext.json) |
+| AI-Powered Email Automation for Business: Summarize & Respond with RAG | Email automation with summarization and response. | Business Automation/AI/Communication | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-Powered%20Email%20Automation%20for%20Business_%20Summarize%20%26%20Respond%20with%20RAG.json) |
+| AI-Powered RAG Workflow For Stock Earnings Report Analysis | Stock earnings report analysis with RAG. | Finance/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-Powered%20RAG%20Workflow%20For%20Stock%20Earnings%20Report%20Analysis.json) |
+| AI-Powered Social Media Amplifier | Amplifies social media presence using AI. | Marketing/AI/Social Media | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-Powered%20Social%20Media%20Amplifier.json) |
+| AI-powered WooCommerce Support-Agent | Creates an AI-powered support agent for WooCommerce stores. | E-commerce/AI/Customer Service | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI-powered%20WooCommerce%20Support-Agent.json) |
+| AI-Powered YouTube Video Summarization & Analysis | Summarizes and analyzes YouTube videos using AI. | Content Creation/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/%E2%9A%A1AI-Powered%20YouTube%20Video%20Summarization%20%26%20Analysis.json) |
+| AI: Ask questions about any data source (using the n8n workflow retriever) | Allows users to ask questions about various data sources using an n8n workflow retriever. | AI/Data Analysis/Workflow Automation | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI_%20Ask%20questions%20about%20any%20data%20source%20(using%20the%20n8n%20workflow%20retriever).json) |
+| AI: Summarize podcast episode and enhance using Wikipedia | Summarizes podcast episodes and enhances the summary with information from Wikipedia using AI. | Content Creation/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI_%20Summarize%20podcast%20episode%20and%20enhance%20using%20Wikipedia.json) |
 
 ### WhatsApp
 
