@@ -113,6 +113,8 @@ All automation templates in this repository were found online and are uploaded h
 | AI: Ask questions about any data source (using the n8n workflow retriever) | Allows users to ask questions about various data sources using an n8n workflow retriever. | AI/Data Analysis/Workflow Automation | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI_%20Ask%20questions%20about%20any%20data%20source%20(using%20the%20n8n%20workflow%20retriever).json) |
 | AI: Summarize podcast episode and enhance using Wikipedia | Summarizes podcast episodes and enhances the summary with information from Wikipedia using AI. | Content Creation/AI/Data Analysis | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/OpenAI_and_LLMs/AI_%20Summarize%20podcast%20episode%20and%20enhance%20using%20Wikipedia.json) |
 
+---
+
 ### WhatsApp
 
 | Title | Description | Department | Link |
@@ -122,20 +124,22 @@ All automation templates in this repository were found online and are uploaded h
 | Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI | This workflow builds a complete business WhatsApp AI-powered RAG chatbot using OpenAI. | Customer Service/AI/Development | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/WhatsApp/Complete%20business%20WhatsApp%20AI-Powered%20RAG%20Chatbot%20using%20OpenAI.json) |
 | Respond to WhatsApp Messages with AI Like a Pro! | This workflow enables professional AI-powered responses to WhatsApp messages. | Customer Service/AI/Communication | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/WhatsApp/Respond%20to%20WhatsApp%20Messages%20with%20AI%20Like%20a%20Pro!.json) |
 
+---
+
 ### Instagram, Twitter, Social Media
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
-| AI agent for Instagram DM_inbox. Manychat + Open AI integration | Integrates Manychat with OpenAI to create an AI agent for managing Instagram direct messages. | Marketing/Customer Service/AI | [Link to Template]() |
-| Create dynamic Twitter profile banner | Automates the creation of dynamic Twitter profile banners. | Marketing/Social Media | [Link to Template]() |
-| Generate Instagram Content from Top Trends with AI Image Generation | Creates Instagram content by analyzing top trends and generating relevant images using AI. | Marketing/AI/Content | [Link to Template]() |
-| OpenAI-powered tweet generator | Generates tweets using OpenAI's language models. | Marketing/Social Media/AI | [Link to Template]() |
-| Post New YouTube Videos to X | Automatically posts new YouTube videos to X (formerly Twitter). | Marketing/Social Media | [Link to Template]() |
-| Reddit AI digest | Creates an AI-generated digest of Reddit content. | Marketing/Content/AI | [Link to Template]() |
-| Social Media Analysis and Automated Email Generation | Analyzes social media data and generates automated email reports. | Marketing/Analytics | [Link to Template]() |
-| Speed Up Social Media Banners With BannerBear.com | Automates the creation of social media banners using BannerBear.com. | Marketing/Design | [Link to Template]() |
-| Twitter Virtual AI Influencer | Manages a virtual AI influencer's Twitter account. | Marketing/AI | [Link to Template]() |
-| Update Twitter banner using HTTP request | Updates a Twitter banner using HTTP requests. | Marketing/Development | [Link to Template]() |
+| AI agent for Instagram DM_inbox. Manychat + Open AI integration | Integrates Manychat with OpenAI to create an AI agent for managing Instagram direct messages. | Marketing/Customer Service/AI | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/AI%20agent%20for%20Instagram%20DM_inbox.%20Manychat%20%2B%20Open%20AI%20integration.json) |
+| Create dynamic Twitter profile banner | Automates the creation of dynamic Twitter profile banners. | Marketing/Social Media | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Create%20dynamic%20Twitter%20profile%20banner.json) |
+| Generate Instagram Content from Top Trends with AI Image Generation | Creates Instagram content by analyzing top trends and generating relevant images using AI. | Marketing/AI/Content | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Generate%20Instagram%20Content%20from%20Top%20Trends%20with%20AI%20Image%20Generation.json) |
+| OpenAI-powered tweet generator | Generates tweets using OpenAI's language models. | Marketing/Social Media/AI | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/OpenAI-powered%20tweet%20generator.json) |
+| Post New YouTube Videos to X | Automatically posts new YouTube videos to X (formerly Twitter). | Marketing/Social Media | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Post%20New%20YouTube%20Videos%20to%20X.json) |
+| Reddit AI digest | Creates an AI-generated digest of Reddit content. | Marketing/Content/AI | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Reddit%20AI%20digest.json) |
+| Social Media Analysis and Automated Email Generation | Analyzes social media data and generates automated email reports. | Marketing/Analytics | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Social%20Media%20Analysis%20and%20Automated%20Email%20Generation.json) |
+| Speed Up Social Media Banners With BannerBear.com | Automates the creation of social media banners using BannerBear.com. | Marketing/Design | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Speed%20Up%20Social%20Media%20Banners%20With%20BannerBear.com.json) |
+| Twitter Virtual AI Influencer | Manages a virtual AI influencer's Twitter account. | Marketing/AI | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Twitter%20Virtual%20AI%20Influencer.json) |
+| Update Twitter banner using HTTP request | Updates a Twitter banner using HTTP requests. | Marketing/Development | [Link to Template](https://github.com/KazukiNoSuzaku/N8N-Automations/blob/main/Instagram_Twitter_Social_Media/Update%20Twitter%20banner%20using%20HTTP%20request.json) |
 
 ---
 
