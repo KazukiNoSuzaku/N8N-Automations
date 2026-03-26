@@ -1,20 +1,27 @@
 # n8n_automations
 
-A curated library of **194 ready-to-import n8n workflow templates** covering AI/LLMs, email automation, social media, document processing, and more — organized by category so you can find what you need fast.
+**The fastest way to ship n8n workflows without wiring nodes from scratch.**
+
+Stop spending hours connecting triggers, AI models, and APIs by hand. Grab one of **194 battle-tested workflow templates**, import the JSON, plug in your credentials, and go — in minutes, not days.
 
 ---
 
-## Why This Exists
+## The Problem
+
+You know the drill: you need an AI-powered email classifier, a RAG chatbot, or a Discord bot that actually routes messages. So you open n8n and start dragging nodes. Two hours later you're debugging JSON paths, fighting credential scopes, and wondering why the webhook isn't firing.
+
+**This repo skips all of that.** Every template here is a working workflow you can import, configure, and activate — no boilerplate, no guesswork.
+
+## How It Compares
 
 | | This Repo | n8n Template Library | Building from Scratch |
 |---|---|---|---|
-| **Cost** | Free, open-source | Free (but requires n8n account to browse) | Your time |
+| **Time to working workflow** | Minutes (import + configure creds) | Minutes (but you need to find it first) | Hours to days |
 | **Offline access** | Clone once, use anywhere | Requires internet | N/A |
-| **Customizable** | Fork and modify freely | Templates are read-only until imported | Full control |
-| **Coverage** | 194 templates across 9 categories | Larger catalog, but harder to browse by use-case | Unlimited, but slow |
-| **AI-focused** | Heavy focus on OpenAI, RAG, LLM workflows | General-purpose mix | Depends on your expertise |
-
-**In short:** This repo is for people who want a local, searchable, forkable collection of n8n workflows — especially AI and LLM-heavy ones — without needing to browse the official library one template at a time.
+| **Customizable** | Fork, modify, PR back | Read-only until imported | Full control |
+| **AI/LLM coverage** | 120+ AI-focused workflows | General-purpose mix | Depends on your expertise |
+| **Discoverability** | Browsable by category, searchable | Paginated web UI | N/A |
+| **Cost** | Free, MIT licensed | Free (account required) | Your time |
 
 ---
 
@@ -74,36 +81,27 @@ graph TB
 
 ---
 
-## Common Use Cases
+## Solve These in Minutes, Not Hours
 
-### Auto-label Gmail with AI
+### "I waste 30 minutes a day sorting email manually"
 
-Download [`Auto-label incoming Gmail messages with AI nodes.json`](Gmail_and_Email_Automation/Auto-label%20incoming%20Gmail%20messages%20with%20AI%20nodes.json) and import it. This workflow:
-- Triggers on every new Gmail message
-- Sends the content to an AI model for classification
-- Applies labels like `Partnership`, `Inquiry`, `Newsletter` automatically
+Import [`Auto-label incoming Gmail messages with AI nodes.json`](Gmail_and_Email_Automation/Auto-label%20incoming%20Gmail%20messages%20with%20AI%20nodes.json) — AI reads every incoming email and auto-applies labels like `Partnership`, `Inquiry`, `Newsletter`. Zero manual sorting.
 
 ```
 Gmail Trigger → Extract Body → OpenAI Classification → Apply Gmail Label
 ```
 
-### RAG Chatbot over Your Documents
+### "My team keeps asking questions that are answered in our docs"
 
-Download [`RAG Chatbot for Company Documents using Google Drive and Gemini.json`](Google_Drive_and_Google_Sheets/RAG%20Chatbot%20for%20Company%20Documents%20using%20Google%20Drive%20and%20Gemini.json) and import it. This workflow:
-- Watches a Google Drive folder for new documents
-- Chunks and embeds documents into a vector store
-- Exposes a chat interface that answers questions with cited sources
+Import [`RAG Chatbot for Company Documents using Google Drive and Gemini.json`](Google_Drive_and_Google_Sheets/RAG%20Chatbot%20for%20Company%20Documents%20using%20Google%20Drive%20and%20Gemini.json) — it watches your Google Drive, chunks and embeds new documents, and exposes a chat interface that answers with cited sources. No more "did you check the wiki?"
 
 ```
 Google Drive Trigger → Chunk Documents → Embed (Gemini) → Vector Store → Chat Interface
 ```
 
-### AI-Powered Discord Bot
+### "Discord messages go to the wrong channel and nobody responds"
 
-Download [`Discord AI-powered bot.json`](Discord/Discord%20AI-powered%20bot.json) and import it. This workflow:
-- Listens for messages in Discord channels
-- Classifies intent (success story, urgent issue, support ticket)
-- Routes to the right department channel automatically
+Import [`Discord AI-powered bot.json`](Discord/Discord%20AI-powered%20bot.json) — AI classifies every message by intent (success story, urgent issue, support ticket) and routes it to the right department channel. No more lost messages.
 
 ```
 Discord Trigger → AI Classification → Route (Success | Urgent | Ticket) → Department Channel
