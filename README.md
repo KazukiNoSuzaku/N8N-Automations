@@ -1,10 +1,118 @@
 # n8n_automations
 
-This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using [n8n](), making it easier for users to discover and use ready-made automations for various platforms and services.
+A curated library of **194 ready-to-import n8n workflow templates** covering AI/LLMs, email automation, social media, document processing, and more — organized by category so you can find what you need fast.
+
+---
+
+## Why This Exists
+
+| | This Repo | n8n Template Library | Building from Scratch |
+|---|---|---|---|
+| **Cost** | Free, open-source | Free (but requires n8n account to browse) | Your time |
+| **Offline access** | Clone once, use anywhere | Requires internet | N/A |
+| **Customizable** | Fork and modify freely | Templates are read-only until imported | Full control |
+| **Coverage** | 194 templates across 9 categories | Larger catalog, but harder to browse by use-case | Unlimited, but slow |
+| **AI-focused** | Heavy focus on OpenAI, RAG, LLM workflows | General-purpose mix | Depends on your expertise |
+
+**In short:** This repo is for people who want a local, searchable, forkable collection of n8n workflows — especially AI and LLM-heavy ones — without needing to browse the official library one template at a time.
+
+---
+
+## Architecture
+
+```mermaid
+graph TB
+    subgraph repo["This Repository"]
+        direction TB
+        AI["AI Research, RAG &<br/>Data Analysis<br/><i>37 workflows</i>"]
+        DB["Database &<br/>Storage<br/><i>5 workflows</i>"]
+        DC["Discord<br/><i>3 workflows</i>"]
+        GM["Gmail & Email<br/>Automation<br/><i>20 workflows</i>"]
+        GD["Google Drive &<br/>Sheets<br/><i>17 workflows</i>"]
+        SM["Instagram, Twitter &<br/>Social Media<br/><i>10 workflows</i>"]
+        LLM["OpenAI &<br/>LLMs<br/><i>81 workflows</i>"]
+        PDF["PDF & Document<br/>Processing<br/><i>17 workflows</i>"]
+        WA["WhatsApp<br/><i>4 workflows</i>"]
+    end
+
+    subgraph n8n["Your n8n Instance"]
+        Import["Import JSON"]
+        Creds["Configure Credentials"]
+        Run["Activate Workflow"]
+    end
+
+    subgraph services["External Services"]
+        OpenAI["OpenAI / LLMs"]
+        Google["Google APIs"]
+        Email["Email (Gmail, Outlook)"]
+        Social["Social Platforms"]
+        VectorDB["Vector DBs<br/>(Qdrant, Pinecone)"]
+        Mail["Messaging<br/>(Discord, WhatsApp)"]
+    end
+
+    repo -->|"Download .json"| Import
+    Import --> Creds
+    Creds --> Run
+    Run --> services
+
+    style repo fill:#1a1a2e,stroke:#e94560,color:#fff
+    style n8n fill:#0f3460,stroke:#e94560,color:#fff
+    style services fill:#16213e,stroke:#e94560,color:#fff
+```
+
+---
+
+## Quick Start
+
+1. **Browse** — Find a workflow in the [Categories](#categories--template-list) below or explore the folders directly.
+2. **Download** — Click the **Link to Template** for any workflow to view the JSON file, then click the **Raw** button and save it (or clone the entire repo).
+3. **Import into n8n** — Open your n8n instance, go to **Workflows → Import from File**, and select the downloaded `.json` file.
+4. **Configure Credentials** — Each workflow references credentials (e.g., OpenAI, Gmail, Slack) by ID. Open the imported workflow, click on nodes with a ⚠️ warning, and connect your own credentials.
+5. **Activate & Run** — Test the workflow manually first, then toggle it to **Active** when ready.
+
+> **Tip:** New to n8n? Check out the [official n8n documentation](https://docs.n8n.io/) to get your instance up and running.
+
+---
+
+## Common Use Cases
+
+### Auto-label Gmail with AI
+
+Download [`Auto-label incoming Gmail messages with AI nodes.json`](Gmail_and_Email_Automation/Auto-label%20incoming%20Gmail%20messages%20with%20AI%20nodes.json) and import it. This workflow:
+- Triggers on every new Gmail message
+- Sends the content to an AI model for classification
+- Applies labels like `Partnership`, `Inquiry`, `Newsletter` automatically
+
+```
+Gmail Trigger → Extract Body → OpenAI Classification → Apply Gmail Label
+```
+
+### RAG Chatbot over Your Documents
+
+Download [`RAG Chatbot for Company Documents using Google Drive and Gemini.json`](Google_Drive_and_Google_Sheets/RAG%20Chatbot%20for%20Company%20Documents%20using%20Google%20Drive%20and%20Gemini.json) and import it. This workflow:
+- Watches a Google Drive folder for new documents
+- Chunks and embeds documents into a vector store
+- Exposes a chat interface that answers questions with cited sources
+
+```
+Google Drive Trigger → Chunk Documents → Embed (Gemini) → Vector Store → Chat Interface
+```
+
+### AI-Powered Discord Bot
+
+Download [`Discord AI-powered bot.json`](Discord/Discord%20AI-powered%20bot.json) and import it. This workflow:
+- Listens for messages in Discord channels
+- Classifies intent (success story, urgent issue, support ticket)
+- Routes to the right department channel automatically
+
+```
+Discord Trigger → AI Classification → Route (Success | Urgent | Ticket) → Department Channel
+```
 
 ---
 
 ## Disclaimer
+
 All automation templates in this repository were found online and are uploaded here solely for easy access and sharing. None of the templates are created or owned by the repository author. If you encounter any issues, errors, or damages resulting from the use of these templates, the repository author assumes no responsibility or liability. All rights to the original templates belong to their respective creators.
 
 ---
